@@ -1,0 +1,4 @@
+index:
+    main: { assets: { image: { sc_logo: assets/vendor/SwitchCat/switchcat-agency-card-medium.png } }, h1: '[Index page]' }
+    header: { assets: { css: { app: templates/default/assets/css/app.css, bootstrap: assets/vendor/bootstrap/css/bootstrap.css }, js: { jquery: assets/vendor/jquery/jquery.min.js, bootstrap: assets/vendor/bootstrap/js/bootstrap.js } }, title: 'My SwitchCat App' }
+    footer: {  }

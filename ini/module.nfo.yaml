@@ -1,0 +1,10 @@
+---
+module id:
+  name: ''
+  description: ''
+  files:
+    - file1.php
+    - file2.php
+  ini:
+    key: value
+  htaccess: true/false

@@ -1,0 +1,26 @@
+{
+    "name": "switchcat/framework",
+    "description": "The SwitchCat Framework Application Skeleton",
+    "type": "project",
+    "keywords": [],
+    "require": {
+        "php": ">=7.4.0",
+        "ext-json": "*",
+        "switchcat/core": "^1.0",
+        "league/climate": "^3.6.0",
+        "symfony/yaml": "^5.1.8",
+        "symfony/http-foundation": "5.1.8",
+        "matthiasmullie/minify": "^1.3",
+        "voku/html-min": "^4.4",
+        "gregwar/cache": "^1.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Eloy",
+            "email": "contact@switchcat.agency"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

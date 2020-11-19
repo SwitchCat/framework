@@ -1,0 +1,5 @@
+active: default
+default:
+    name: 'default template'
+    description: 'single page default template built in the framework'
+    templates: { main: default/, header: partials/, footer: partials/ }

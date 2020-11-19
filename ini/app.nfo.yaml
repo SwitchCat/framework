@@ -1,0 +1,37 @@
+---
+- params:
+      # Will define namespace root for all custom classes
+      # Has to be one word with no special characters
+    - name: my_app_name
+      # Author(s)
+      authors:
+        - me
+        - mymate
+        - anothermate
+      # Contact information
+      contact:
+        email: ''
+        phone: ''
+        country: ''
+        city: ''
+        zip: ''
+        street: ''
+        housenumber: ''
+        letterbox: ''
+      description: ''
+- app:
+      # Use sessions. [true/false]
+    - sessions: true
+      # Use 2 letter format
+      language: en
+      # DEV { 'debugbar': 'on', 'show_errors': 'ALL', 'cache': 'off' }
+      # ALPHA { 'debugbar': 'off', 'show_errors': 'E_ALL & ~E_NOTICE', 'cache': 'off' }
+      # BETA { 'debugbar': 'off', 'show_errors': 'E_ALL & ~E_NOTICE & ~E_WARNING', 'cache': 'on' }
+      # PROD = {  'debugbar': 'off', 'show_errors': '0', 'cache': 'on' }
+      mode: DEV
+      # Void (no cache)
+      # ApcCache
+      # FilesystemCache
+      # MemcachedCache
+      # PredisCache (requires switchcat/RedisDAO and php-redis extension)
+      cache: Void

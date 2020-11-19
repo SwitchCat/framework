@@ -1,0 +1,25 @@
+params:
+    name: hoho
+    description: ''
+    license: None
+author:
+    name: felix
+    company: ''
+    email: ''
+    phone: ''
+    country: ''
+    city: ''
+    zip: ''
+    street: ''
+    housenumber: ''
+    letterbox: ''
+    website: ''
+app:
+    sessions: true
+    language: en
+    mode: PROD
+    cache: memcache
+database:
+    name: ''
+    user: ''
+    password: ''

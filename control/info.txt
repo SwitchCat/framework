@@ -1,0 +1,10 @@
+This folder is intended to hold all custom user built controller classes.
+
+The framework already handles:
+    * Http requests                     => SwitchCat\Control\HttpControl
+    * Ajax requests                     => SwitchCat\Control\AjaxControl
+    * Command line interface requests   => SwitchCat\Control\CliControl
+
+These classes extend the main controller SwitchCat\Control\Control
+
+Your custom class should extend one of these classes

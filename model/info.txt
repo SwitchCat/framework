@@ -1,0 +1,12 @@
+This folder is intended to hold all custom switchcat built model classes.
+
+The framework already handles:
+    * Sql data          (install the switchcat/sqldao module)    => SwitchCat\Data\SqlDAO
+    * Redis data        (install the switchcat/redisdao module)  => SwitchCat\Data\RedisDAO
+    * Json file data    (install the switchcat/jsondao module)   => SwitchCat\Data\JsonDAO
+    * XML file data     (install the switchcat/xmldao module)    => SwitchCat\Data\XmlDAO
+    * CSV file data     (install the switchcat/csvdao module)    => SwitchCat\Data\CsvDAO
+
+There is a package called switchcat/data-bundle that will install the complete set of data handlers.
+
+When you create a new model with the switchcat command [php switchcat -f model] it will create a new model extending one of these handlers
