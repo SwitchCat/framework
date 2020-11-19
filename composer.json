@@ -6,6 +6,7 @@
     "require": {
         "php": ">=7.4.0",
         "ext-json": "*",
+        "ext-pdo": "*",
         "switchcat/core": "^1.0",
         "league/climate": "^3.6.0",
         "symfony/yaml": "^5.1.8",
@@ -13,6 +14,11 @@
         "matthiasmullie/minify": "^1.3",
         "voku/html-min": "^4.4",
         "gregwar/cache": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "phpunit/php-code-coverage": "^9.2",
+        "phpstan/phpstan-phpunit": "^0.12.16"
     },
     "license": "MIT",
     "authors": [
